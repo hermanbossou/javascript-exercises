@@ -1,4 +1,4 @@
-const values = require('./joinStrings-example')
+const values = require('./joinStrings-example.js')
 
 describe('joinStrings-example', () => {
   test('birthYear is 1947', () => {
@@ -7,11 +7,11 @@ describe('joinStrings-example', () => {
   test('thisYear is 1965', () => {
     expect(values.thisYear).toEqual(1965);
   });
-  test('firstName is Carlos', () => {
-    expect(values.firstName).toEqual('Carlos');
-  });
-  test('lastName is Carlos', () => {
+  test('lastName is Stevenson', () => {
     expect(values.lastName).toEqual('Stevenson');
+  });
+   test('firstName is Carlos', () => {
+    expect(values.firstName).toEqual('Carlos');
   });
   test('greeting is put together correctly', () => {
     expect(values.greeting).toEqual('Hello! My name is Carlos Stevenson and I am 18 years old.');

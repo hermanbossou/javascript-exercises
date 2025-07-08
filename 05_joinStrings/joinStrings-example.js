@@ -8,9 +8,10 @@ const greeting = "Hello! My name is " + firstName + " " + lastName + " and I am 
 console.log(greeting);
 
 module.exports = {
-  greeting,
   birthYear,
   thisYear,
+  lastName,
   firstName,
-  lastName
-}
+   greeting
+};
+
